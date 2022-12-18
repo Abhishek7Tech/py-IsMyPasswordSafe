@@ -3,10 +3,6 @@ import requests
 import hashlib
 import sys
 
-url = 'https://api.pwnedpasswords.com/range/1e75a'
-req = requests.get(url)
-print(req)
-
 def fetch_api(char):
     url = f'https://api.pwnedpasswords.com/range/{char}'
     req = requests.get(url)
