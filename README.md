@@ -3,6 +3,6 @@ check if your password has been pawned...
 
 open cmd
 
-run "python main.py "password".
+run -> python main.py "password".
 
-uses https://haveibeenpwned.com/ API.
+uses -> https://haveibeenpwned.com/ API.
